@@ -7,7 +7,7 @@ import {defineConfig} from 'vite';
 export default defineConfig(() => {
   return {
     // GitHub Pages 部署路徑
-    base: '/Shadow-Puppet-Interactive-Game2/',
+    base: '/Shadow-Puppet-Interactive-Game3/',
 
     plugins: [react(), tailwindcss()],
     resolve: {
