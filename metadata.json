@@ -1,0 +1,6 @@
+{
+  "name": "影偶之間 - 臺灣傳統皮影戲 2D 線上操偶互動遊戲",
+  "description": "結合臺灣傳統皮影戲與現代網頁技術的 2D 互動遊戲。扮演操偶師，透過滑鼠與觸控拖曳武將與文生戲偶關節，體驗教學模式、姿勢挑戰與自由劇場。",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

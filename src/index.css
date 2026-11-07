@@ -1,0 +1,50 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    font-family: 'Plus Jakarta Sans', 'Noto Serif TC', system-ui, -apple-system, sans-serif;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    overflow-x: hidden;
+    background-color: #0d0a08;
+    color: #f7eedd;
+  }
+}
+
+.font-serif-tc {
+  font-family: 'Noto Serif TC', serif;
+}
+
+.font-cinzel {
+  font-family: 'Cinzel', serif;
+}
+
+/* Custom Leather / Shadow Parchment Stage Filter */
+.shadow-screen-glow {
+  background: radial-gradient(ellipse at 50% 45%, #fff6d9 0%, #fae1a0 35%, #e1b463 65%, #9b6c2d 95%, #42290d 100%);
+  box-shadow: inset 0 0 80px rgba(0, 0, 0, 0.45), 0 0 40px rgba(225, 180, 99, 0.2);
+}
+
+.parchment-texture {
+  background-image: radial-gradient(#d39a3f 0.75px, transparent 0.75px), radial-gradient(#6d4218 0.75px, #fdf4d8 0.75px);
+  background-size: 30px 30px;
+  background-position: 0 0, 15px 15px;
+  opacity: 0.08;
+}
+
+/* Traditional Puppet Silhouette Shadow Effect */
+.puppet-shadow-filter {
+  filter: drop-shadow(4px 8px 12px rgba(18, 10, 4, 0.55)) drop-shadow(0 2px 4px rgba(45, 25, 10, 0.35));
+}
+
+/* Lantern Light Flicker */
+@keyframes lantern-flicker {
+  0%, 100% { opacity: 0.96; transform: scale(1); }
+  33% { opacity: 0.99; transform: scale(1.008); }
+  66% { opacity: 0.94; transform: scale(0.995); }
+}
+
+.animate-flicker {
+  animation: lantern-flicker 6s ease-in-out infinite alternate;
+}
