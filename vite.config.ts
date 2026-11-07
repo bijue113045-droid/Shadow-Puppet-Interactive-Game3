@@ -1,3 +1,4 @@
+
 import tailwindcss from '@tailwindcss/vite';
 import react from '@vitejs/plugin-react';
 import path from 'path';
@@ -5,6 +6,9 @@ import {defineConfig} from 'vite';
 
 export default defineConfig(() => {
   return {
+    // GitHub Pages 部署路徑
+    base: '/Shadow-Puppet-Interactive-Game2/',
+
     plugins: [react(), tailwindcss()],
     resolve: {
       alias: {
